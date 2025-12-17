@@ -1,0 +1,3 @@
+
+optuna:
+  n_trials: 50
