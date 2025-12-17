@@ -1,0 +1,23 @@
+
+dataset:
+  path: data/graphs_dataset.pt
+  test_size: 0.1
+  val_size: 0.2
+
+model:
+  hidden_fea_len: 256
+  num_layers: 4
+  edge_hidden_dim: 256
+  h_fea_len: 512
+  n_h: 2
+  dropout_rate: 0.1
+  use_attention: true
+  heads: 4
+  use_attention_pooling: false
+
+training:
+  batch_size: 32
+  lr: 1e-3
+  weight_decay: 1e-5
+  epochs: 150
+  patience: 12
